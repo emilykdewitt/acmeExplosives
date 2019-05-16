@@ -2,37 +2,37 @@
   "types": [
     {
       "id": "type1",
-      "category": "category1",
+      "category": "category0",
       "name": "Mega Blasters",
       "description": "Fireworks intended for mega displays during holiday celebrations"
     },
     {
       "id": "type2",
-      "category": "category1",
+      "category": "category0",
       "name": "Home Blasters",
       "description": "Fireworks intended for home use during any celebration"
     },
     {
       "id": "type3",
-      "category": "category1",
+      "category": "category0",
       "name": "Personal Blasters",
       "description": "Fireworks intended for use for parties and other celebrations"
     },
     {
       "id": "type4",
-      "category": "category2",
+      "category": "category1",
       "name": "Construction Blasters",
       "description": "Dynamite intended for taking down building structures"
     },
     {
       "id": "type5",
-      "category": "category2",
+      "category": "category1",
       "name": "Mountain Blasters",
       "description": "Dynamite intended for blowing up mountains and other natural formations"
     },
     {
       "id": "type6",
-      "category": "category2",
+      "category": "category1",
       "name": "Fun Blasters",
       "description": "Dynamite intended for blowing up stuff for funsies"
     }
