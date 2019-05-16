@@ -1,0 +1,112 @@
+{
+  "products": [{
+      "multi-star-blast": {
+        "id": "product1",
+        "type": "type1",
+        "name": "Multi-Star Blast",
+        "description": "10 rockets that blast into 1000 stars"
+      },
+      "rainbow-shooter": {
+        "id": "product2",
+        "type": "type1",
+        "name": "Rainbow Shooter",
+        "description": "8 rockets that burst into all the colors of the rainbow"
+      },
+      "dragon-tail": {
+        "id": "product3",
+        "type": "type1",
+        "name": "Dragon Tail",
+        "description": "Yellow, red, and gold rockets streak in a spiral"
+      },
+      "single-star-blast": {
+        "id": "product4",
+        "type": "type2",
+        "name": "Single Star Blast",
+        "description": "Single rocket that explodes into 100 stars"
+      },
+      "crackler": {
+        "id": "product5",
+        "type": "type2",
+        "name": "Crackler",
+        "description": "Super-loud rocket that pops and crackles as it explodes in the sky"
+      },
+      "murica": {
+        "id": "product6",
+        "type": "type2",
+        "name": "Murica",
+        "description": "Tri-color rocket that streaks the colors of the American flag across the sky"
+      },
+      "fairy-sparkler": {
+        "id": "product7",
+        "type": "type3",
+        "name": "Fairy Sparkler",
+        "description": "Small hand-held sparkler that is safe for ages 8+"
+      },
+      "popper": {
+        "id": "product8",
+        "type": "type3",
+        "name": "Popper",
+        "description": "Poppers that crackle and pop when thrown down on the ground"
+      },
+      "spinner": {
+        "id": "product9",
+        "type": "type3",
+        "name": "Spinner",
+        "description": "These spinners spin while shooting small sparks"
+      },
+      "skyscraper-blast": {
+        "id": "product10",
+        "type": "type4",
+        "name": "Skyscraper Blast",
+        "description": "Takes down a skyscraper"
+      },
+      "office-park-blast": {
+        "id": "product11",
+        "type": "type4",
+        "name": "Office Park Blast",
+        "description": "Takes down an office park"
+      },
+      "home-blast": {
+        "id": "product12",
+        "type": "type4",
+        "name": "Home Blast",
+        "description": "Takes down a small to medium size house"
+      },
+      "everest-blast": {
+        "id": "product13",
+        "type": "type5",
+        "name": "Everest Blast",
+        "description": "Could take down Mt. Everest (hypothetically)"
+      },
+      "mt-st-helen-blast": {
+        "id": "product14",
+        "type": "type5",
+        "name": "Mount St. Helen Blast",
+        "description": "Suitable for taking down a mountain the size of Mount St. Helen"
+      },
+      "mole-hill-blast": {
+        "id": "product15",
+        "type": "type5",
+        "name": "Mole Hill Blast",
+        "description": "Explode the mole hills in your yard."
+      },
+      "microwave-blaster": {
+        "id": "product16",
+        "type": "type6",
+        "name": "Microwave Blaster",
+        "description": "Blow up that old microwave that's been sitting in your basement"
+      },
+      "single-wide-trailer-blaster": {
+        "id": "product17",
+        "type": "type6",
+        "name": "Single-wide Trailer Blaster",
+        "description": "Blow up that old single-wide that's been sitting in your backyard"
+      },
+      "watermelon-blaster": {
+        "id": "product18",
+        "type": "type6",
+        "name": "Watermelon Blaster",
+        "description": "Blow up a small-medium sized watermelon. For funsies!"
+      }
+  }]
+}
