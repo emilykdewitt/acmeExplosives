@@ -1,5 +1,69 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: lightblue;
+  background-color: black;
+}
+
+#pageTitle {
+  font-family: 'Bangers', cursive;
+  font-size: 5em;
+  color: red;
+}
+
+h5 {
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+}
+
+#productCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 2px;
+  padding: 1px;
+}
+.card-body {
+  padding-top: 0px;
+}
+
+.card {
+  margin-top: 8px;
+}
+
+.type1 {
+  h5 {
+    color: red;
+  }
+}
+.type2 {
+  h5 {
+    color: rgb(219, 182, 15);
+  }
+}
+.type3 {
+  h5 {
+    color: rgb(255, 123, 0);
+  }
+}
+.type4 {
+  h5 {
+    color: rgb(37, 160, 37);
+  }
+}
+.type5 {
+  h5 {
+    color: blue;
+  }
+}
+.type5 {
+  h5 {
+    color: rgb(223, 25, 147);
+  }
+}
+.type6 {
+  h5 {
+    color: rgb(154, 223, 25);
+  }
 }

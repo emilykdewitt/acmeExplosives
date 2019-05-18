@@ -4,9 +4,18 @@ import 'bootstrap';
 import '../styles/main.scss';
 
 const init = () => {
-  console.error('hello world');
-  productsPage.initCategories();
-  productsPage.initTypes();
+  let categories = [];
+  let products = [];
+  productsPage.initCategories()
+    .then((cats) => {
+      categories = cats;
+      productsPage.initProducts()
+        .then((prods) => {
+          products = prods;
+          productsPage.matchProductsWithCategories(categories, products);
+        });
+    });
+  productsPage.productCardBuilder();
 };
 
 init();
