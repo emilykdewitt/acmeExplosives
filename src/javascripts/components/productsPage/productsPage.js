@@ -12,7 +12,7 @@ const productCardBuilder = (array) => {
     const productName = productsNames[i];
     const product = array[productName];
     domString += '<div class="col-3">';
-    domString += `<div class="card ${product.type} align-self">`;
+    domString += `<div class="card ${product.category} ${product.type} align-self">`;
     domString += `<h5 class="card-title">${product.name}</h4>`;
     domString += '<div class="card-body">';
     domString += '<h6>Description:</h6>';
@@ -35,6 +35,7 @@ const initCategories = () => new Promise((resolve, reject) => {
     .then((categoriesWithTypes) => {
       categoriesArray.push(categoriesWithTypes);
       resolve(categoriesArray);
+      console.error(categoriesArray);
     })
     .catch(err => reject(err));
 });
@@ -69,8 +70,28 @@ const matchProductsWithCategories = () => {
   productCardBuilder(productsArray);
 };
 
+const showCardsByButton = (e) => {
+  Array.from(document.getElementsByClassName('card')).forEach((card) => {
+    card.classList.remove('show');
+    card.classList.add('hide');
+  });
+  const buttonId = e.target.id;
+  const selectedCardsArray = Array.from(document.getElementsByClassName(buttonId));
+  console.error(selectedCardsArray);
+  selectedCardsArray.forEach((card) => {
+    card.classList.remove('hide');
+    card.classList.add('show');
+  });
+};
+
+const buttonEventListeners = () => {
+  document.getElementById('Fireworks').addEventListener('click', showCardsByButton);
+  document.getElementById('Demolition').addEventListener('click', showCardsByButton);
+};
+
 export default {
   initCategories,
   initProducts,
   matchProductsWithCategories,
+  buttonEventListeners,
 };

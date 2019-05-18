@@ -15,7 +15,7 @@ const init = () => {
           productsPage.matchProductsWithCategories(categories, products);
         });
     });
-  productsPage.productCardBuilder();
+  productsPage.buttonEventListeners();
 };
 
 init();
