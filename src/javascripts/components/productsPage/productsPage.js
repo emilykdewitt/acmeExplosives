@@ -35,7 +35,6 @@ const initCategories = () => new Promise((resolve, reject) => {
     .then((categoriesWithTypes) => {
       categoriesArray.push(categoriesWithTypes);
       resolve(categoriesArray);
-      console.error(categoriesArray);
     })
     .catch(err => reject(err));
 });
@@ -67,6 +66,11 @@ const matchProductsWithCategories = () => {
       }
     });
   });
+  let domString = '';
+  categoriesArray[0].forEach((item) => {
+    domString += `<a class="dropdown-item" id="${item.name}">${item.name}</a>`;
+  });
+  util.printToDom('dropdown-menu', domString);
   productCardBuilder(productsArray);
 };
 
