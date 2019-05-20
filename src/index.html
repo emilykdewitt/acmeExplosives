@@ -4,10 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
   <title>Acme Explosives</title>
 </head>
 <body class="text-center">
-  <h5>Acme Explosives</h5>
+  <h5 id="pageTitle">Acme Explosives</h5>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categories
+    </button>
+    <div id="dropdown-menu" class="dropdown-menu" aria-labelledby="dropdownMenuButton"></div>
+  </div>
   <div id="productCards"></div>
 </body>
 </html>
